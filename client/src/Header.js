@@ -2,12 +2,22 @@ import React from 'react';
 
 function Header({approvers, quorum}) {
   return (
-    <header>
+<div className="float-sm-left">
+      <div className="bg-container container border rounded-3" >
       <ul>
-        <li>Approvers: {approvers.join(', ')}</li>
+        
+        Approvers:
+        {approvers.map((item =>
+          <li className="" >{item}</li>
+          ))}
+        
         <li>Quorum: {quorum}</li>
       </ul>
-    </header>
+      
+      </div>
+      <br />
+      </div>
+
   );
 }
 

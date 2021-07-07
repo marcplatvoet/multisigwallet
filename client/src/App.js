@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './scss/index.scss';
 import React, { useEffect, useState } from 'react';
 import { getWeb3, getWallet } from './utils.js'; 
 import Header from './Header.js';
@@ -54,10 +56,35 @@ function App() {
 
   return (
     <div>
-      Multisig Dapp 
-      <Header approvers={approvers} quorum={quorum} />
-      <NewTransfer createTransfer={createTransfer} />
-      <TransferList transfers={transfers} approveTransfer={approveTransfer} />
+        <header id="header" className="card">
+          <tr className="row">
+            <td>
+              <h2 className="text-center">Multisig Dapp</h2> 
+            </td>
+          </tr>
+        </header>
+
+        <table>
+        <tbody>
+          <tr className="row">
+          <td className="col-sm-8">
+            < Header approvers={approvers} quorum={quorum} />
+            </td>
+          </tr>
+          <tr>
+            <td className="col-sm-12">
+              <NewTransfer createTransfer={createTransfer} />
+            </td>
+            </tr>
+            <tr>            
+            <td className="col-sm-12">
+              <TransferList transfers={transfers} approveTransfer={approveTransfer} />
+            </td>
+          </tr>
+        </tbody>
+        <br />
+        </table>
+     
     </div>
   );
 }

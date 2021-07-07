@@ -5849,11 +5849,11 @@
       "events": {},
       "links": {},
       "address": "0x05c44B5E2eAb5064286FD3CDC2cFa02A2a6950b4",
-      "transactionHash": "0xfb0b918fc6846121af397a26d33b8f810830cb15c1fc8f6955d25b5c4ca2097f"
+      "transactionHash": "0xf2015489daa56865e991fe840520b1d7c46d37ceb044ba1efc5d198535491b45"
     }
   },
-  "schemaVersion": "3.3.4",
-  "updatedAt": "2021-06-09T06:32:07.216Z",
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-07T09:52:36.832Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
