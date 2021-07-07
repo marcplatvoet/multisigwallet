@@ -53,24 +53,14 @@
   "ast": {
     "absolutePath": "/home/marc/EatTheBlocks/wallet/contracts/Migrations.sol",
     "exportedSymbols": {
-      "Migrations": [
-        32
-      ]
+      "Migrations": [32]
     },
     "id": 33,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.4",
-          ".22",
-          "<",
-          "0.9",
-          ".0"
-        ],
+        "literals": ["solidity", ">=", "0.4", ".22", "<", "0.9", ".0"],
         "nodeType": "PragmaDirective",
         "src": "32:32:0"
       },
@@ -82,9 +72,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 32,
-        "linearizedBaseContracts": [
-          32
-        ],
+        "linearizedBaseContracts": [32],
         "name": "Migrations",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -277,10 +265,7 @@
                       "id": 9,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        260,
-                        261
-                      ],
+                      "overloadedDeclarations": [260, 261],
                       "referencedDeclaration": 261,
                       "src": "196:7:0",
                       "typeDescriptions": {
@@ -469,23 +454,13 @@
     "attributes": {
       "absolutePath": "/home/marc/EatTheBlocks/wallet/contracts/Migrations.sol",
       "exportedSymbols": {
-        "Migrations": [
-          32
-        ]
+        "Migrations": [32]
       }
     },
     "children": [
       {
         "attributes": {
-          "literals": [
-            "solidity",
-            ">=",
-            "0.4",
-            ".22",
-            "<",
-            "0.9",
-            ".0"
-          ]
+          "literals": ["solidity", ">=", "0.4", ".22", "<", "0.9", ".0"]
         },
         "id": 1,
         "name": "PragmaDirective",
@@ -494,18 +469,12 @@
       {
         "attributes": {
           "abstract": false,
-          "baseContracts": [
-            null
-          ],
-          "contractDependencies": [
-            null
-          ],
+          "baseContracts": [null],
+          "contractDependencies": [null],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
-          "linearizedBaseContracts": [
-            32
-          ],
+          "linearizedBaseContracts": [32],
           "name": "Migrations",
           "scope": 33
         },
@@ -548,9 +517,7 @@
                   {
                     "attributes": {
                       "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
+                      "overloadedDeclarations": [null],
                       "referencedDeclaration": 257,
                       "type": "msg",
                       "value": "msg"
@@ -608,9 +575,7 @@
             "children": [
               {
                 "attributes": {
-                  "parameters": [
-                    null
-                  ]
+                  "parameters": [null]
                 },
                 "children": [],
                 "id": 8,
@@ -629,9 +594,7 @@
                           "isPure": false,
                           "isStructConstructorCall": false,
                           "lValueRequested": false,
-                          "names": [
-                            null
-                          ],
+                          "names": [null],
                           "tryCall": false,
                           "type": "tuple()",
                           "type_conversion": false
@@ -649,10 +612,7 @@
                                   "typeString": "literal_string \"This function is restricted to the contract's owner\""
                                 }
                               ],
-                              "overloadedDeclarations": [
-                                260,
-                                261
-                              ],
+                              "overloadedDeclarations": [260, 261],
                               "referencedDeclaration": 261,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
@@ -691,9 +651,7 @@
                                   {
                                     "attributes": {
                                       "argumentTypes": null,
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
+                                      "overloadedDeclarations": [null],
                                       "referencedDeclaration": 257,
                                       "type": "msg",
                                       "value": "msg"
@@ -710,9 +668,7 @@
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "overloadedDeclarations": [
-                                    null
-                                  ],
+                                  "overloadedDeclarations": [null],
                                   "referencedDeclaration": 5,
                                   "type": "address",
                                   "value": "owner"
@@ -819,9 +775,7 @@
               },
               {
                 "attributes": {
-                  "parameters": [
-                    null
-                  ]
+                  "parameters": [null]
                 },
                 "children": [],
                 "id": 25,
@@ -836,9 +790,7 @@
                   {
                     "attributes": {
                       "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
+                      "overloadedDeclarations": [null],
                       "referencedDeclaration": 19,
                       "type": "modifier ()",
                       "value": "restricted"
@@ -870,9 +822,7 @@
                           {
                             "attributes": {
                               "argumentTypes": null,
-                              "overloadedDeclarations": [
-                                null
-                              ],
+                              "overloadedDeclarations": [null],
                               "referencedDeclaration": 7,
                               "type": "uint256",
                               "value": "last_completed_migration"
@@ -884,9 +834,7 @@
                           {
                             "attributes": {
                               "argumentTypes": null,
-                              "overloadedDeclarations": [
-                                null
-                              ],
+                              "overloadedDeclarations": [null],
                               "referencedDeclaration": 21,
                               "type": "uint256",
                               "value": "completed"
